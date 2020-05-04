@@ -35,11 +35,11 @@ steps:
 
   #Aula 6(CD) - 6.19' 
 - id: "Pushing image"
-  name: 'grc.io/cloud-builders/docker'
+  name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/$PROJECT_ID/app-laravel:$SHORT_SHA']
 
 - id: "Adjusting deployment file - k8s"
-  name: 'grc.io/cloud-builders/gcloud'
+  name: 'gcr.io/cloud-builders/gcloud'
   entrypoint: '/bin/sh'
   args:
     - 'c'
