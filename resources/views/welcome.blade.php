@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel - Connectei professor! Bruno Leal aqui
+                    Laravel - Connectei professor! Bruno Leal aqui - Bora tuka
                 </div>
 
                 <div class="links">
