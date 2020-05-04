@@ -55,5 +55,5 @@ steps:
     - '-f'
     - 'k8s/app/deployment-new.yaml'
   env:
-  - 'CLOUDSDK_COMPUTE-ZONE=southamerica-east1-b'
+  - 'CLOUDSDK_COMPUTE_ZONE=southamerica-east1-b'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-docker-laravel'
