@@ -82,9 +82,11 @@
             <div class="content">
                 <div class="title m-b-md">
                     Connectei! Bruno Leal aqui
-                    <h4>Vamos testar um ambiente de CI/CD</h4>
-                    <h6>Testando ambiente</h6>
-                    <h6>Agora temos um Kubernets rodando. Permitindo que o sistema alem de ter alta disponibilidade, tenha ESCALABILIDADE!!</h6>
+                </div>
+                <div>
+                <h5>Vamos testar um ambiente de CI/CD</h4>
+                <h6>Testando ambiente</h6>
+                <p>Agora temos um Kubernets rodando. Permitindo que o sistema alem de ter alta disponibilidade, tenha </p>
                 </div>
 
                 <div class="links">
