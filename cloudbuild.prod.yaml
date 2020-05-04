@@ -31,7 +31,7 @@ steps:
   # AQUI CRIAMOS OS PASSOS PARA IR PRO K8S A IMAGEM CERTA( VARIAS IMAGENS SAO GERADAS COM O CODIGO DO COMMIT)
 - id: "Building image from Dockerfile.prod"
   name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$PROJECT_ID/app-laravel:$SHORT_SHA']
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/app-laravel:$SHORT_SHA', '-f', 'Dockerfile.prod', '.' ]
 
   #Aula 6(CD) - 6.19' 
 - id: "Pushing image"
