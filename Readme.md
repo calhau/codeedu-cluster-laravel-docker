@@ -16,7 +16,12 @@ No segundo commit apenas adicionei esse arquivo Readme
 - kubectl create secret generic mysql-pass --from-literal=password='a1s2d3f4'  
 **Necessario conectar o GCLOUD**
 
-2. Criei o arquivo de deployment do Redis
+2. Criei o arquivo de deployment do Redis, nele foi incluso a parte de Service tbm  
+**Rodar comando para executar deployment do Redis**
+- kubectl apply -f . (dentro do diretorio k8s/redis)  
+
+
+
 
 
 
