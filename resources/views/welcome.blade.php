@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel - Connectei professor! Bruno Leal aqui - Bora tuka
+                    Connectei! Bruno Leal aqui
+                    <h4>Vamos testar um ambiente de CI/CD</h4>
                 </div>
 
                 <div class="links">
